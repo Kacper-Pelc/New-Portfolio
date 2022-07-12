@@ -1,60 +1,28 @@
-.first-page-body {
+.first-page {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.FirstPageContainer {
-    min-height: 150vh;
-    z-index: -1;
-}
-.FirstPageBase {
-    position: relative;
-    width: 100%;
-    z-index: -1;
-    height: 100vh;
-    background: linear-gradient(140deg, #003ea3 20%, #50d5de 100%);
-    background-size: cover;
-    background-attachment: fixed;
-    clip-path: circle(180vh at 50% -80vh);
-    justify-content: center;
-    font-weight: 200;
-    align-items: center;
 
-    justify-content: center;
-    .FirspageAll {
-        max-width: 1000px;
-        text-align: center;
-        display: flex;
-    }
-    .FirstPageInfo {
-        display: flex;
-    }
-    .first-page-title {
-        color: #fff;
-        margin-left: 20px;
-    }
-    .FirstPagePhoto {
-        justify-content: flex-end;
-        display: flex;
-        width: 900px;
-        margin-top: 70px;
-    }
-    .profile {
-        display: flex;
-        border: #fff 5px solid;
-    }
-    .dotshape1 {
-        display: block;
-    }
-    .dotshape1 {
-        display: none;
-    }
-    .title {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        align-items: center;
-        align-content: flex-start;
+    &-container {
+        min-height: 150vh;
+        z-index: -1;
+        &-base {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &-info {
+                &-title {
+                    &-text {
+                    }
+                }
+                &-img {
+                    &-profile {
+                        &-image {
+                        }
+                    }
+                }
+            }
+        }
     }
 }
