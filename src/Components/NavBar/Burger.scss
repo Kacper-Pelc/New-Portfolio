@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&family=Roboto:wght@100&display=swap');
+.navbar {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: #000;
+    position: fixed;
+    z-index: 12;
+    justify-content: flex-end;
+    justify-items: center;
+    font-family: 'Inter', sans-serif;
+    align-items: baseline;
+}
+.burger {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    transition: 0.5s;
+    &-logo {
+        display: flex;
+        align-items: center;
+    }
+    &-close {
+        width: 3%;
+        min-width: 40px;
+        transition: 0.5s;
+        animation-name: openIn;
+        animation-duration: 1s;
+        animation-fill-mode: both;
+    }
+    &-open {
+        width: 3%;
+        min-width: 40px;
+        transition: 0.5s;
+    }
+    &-items {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+        order: 2;
+        display: flex;
+        &-table {
+            padding: 0;
+            display: grid;
+            align-content: stretch;
+            justify-content: space-evenly;
+            grid-gap: 10px;
+            align-items: baseline;
+            &-list {
+                list-style: none;
+                font-size: 1.2rem;
+                &-link {
+                    text-decoration: none;
+                    color: #444;
+                    font-weight: 500;
+                    transition: color 0.3s ease-in-out;
+                }
+                &-link:hover {
+                    color: #20a6ff;
+                    transition: color 0.3s ease-in-out;
+                }
+            }
+        }
+    }
+}
+@keyframes openIn {
+    0% {
+        transform-origin: center;
+        transform: rotate3d(0, 0, 1, -200deg);
+        opacity: 0;
+    }
+    100% {
+        transform-origin: center;
+        transform: none;
+        opacity: 1;
+    }
+}

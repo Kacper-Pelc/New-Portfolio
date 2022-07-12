@@ -6,97 +6,24 @@ $background: #edf5e1;
 $shadow: #cccccc;
 $illumination: #fdc6be;
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
-body {
-    background: $background;
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-}
-.NavBar {
-    display: flex;
-    justify-content: space-between;
-}
-.n-img {
-    height: 50%;
-    position: relative;
-    top: 13px;
-}
-.n-title {
-    display: inline-flex;
-    justify-content: flex-end;
-    padding: 0;
-}
-.n-title-text {
-    font-size: 20px;
-    background: -webkit-linear-gradient(#115faf, #4dd1dc);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.nav {
-    padding: 0px;
-    width: 640px;
-    display: flex;
-    justify-content: space-evenly;
-}
-.link {
-    cursor: pointer;
-}
-.link:hover {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-}
-ul {
-    list-style-type: none;
-}
-li img {
-    width: 80px;
-}
-li a {
-    float: left;
-    width: 100px;
-    text-align: center;
-    font-size: 15px;
-    color: $background;
-    text-decoration: none;
-}
-
-li a .title {
-    font-size: 0px;
-}
-li a:hover {
-    z-index: 0;
-    text-align: center;
-    height: 20px;
-    border-radius: 200px;
-}
-li a:hover .title {
-    transform: translateY(25px);
-    text-align: center;
-    font-size: 14px;
-    padding: 10px;
-    height: 20px;
-    width: 80px;
-    transition: 0.5s;
-    z-index: 2;
-    border-radius: 150px;
-    background: -webkit-linear-gradient(#ffffff, #ffffff);
-    color: #05386b;
-}
-
-li a.title:hover {
-    transform: translateY(-10px);
-}
-.nav-img-class1 {
-    width: 40%;
-}
-.nav-img-class2 {
-    width: 40%;
-}
-
-.nav-img-class3 {
-    width: 40%;
-}
-
-.nav-img-class4 {
-    width: 40%;
+.navbar-container {
+    &-desktop {
+        display: flex;
+        justify-content: space-between;
+        &-content {
+            display: inline-flex;
+            justify-content: flex-end;
+            padding: 0;
+            &-image {
+                height: 50%;
+                top: 13px;
+            }
+            &-title {
+                font-size: 20px;
+                background: -webkit-linear-gradient(#115faf, #4dd1dc);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
 }

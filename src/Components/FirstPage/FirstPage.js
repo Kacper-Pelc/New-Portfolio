@@ -5,26 +5,24 @@ import shape from '../../Assets/image 5.png'
 import Navbar from '../NavBar/Navbar'
 const FirstPage = () => {
     return (
-        <div className="first-page-body">
-            <div className={'FirstPageContainer'}>
-                <div className={'FirstPageBase'}>
-                    <div className="FirstpageAll">
-                        <div className={'FirstPageInfo'}>
-                            <div className="title">
-                                <h1 className="first-page-title">
-                                    HI EVERYONE I’M MACIEJ AND <br />I FRONTEND
-                                    DEVELOPER!!
-                                </h1>
+        <div className="first-page">
+            <div className="first-page-container">
+                <div className="first-page-container-base">
+                    <div className="first-page-container-base-info">
+                        <div className="first-page-container-base-info-img">
+                            <div className="first-page-container-base-info-img-profile">
+                                <img
+                                    className="first-page-container-base-info-img-profile-image"
+                                    src={profile}
+                                    alt="default"
+                                />
                             </div>
-                            <div className={'FirstPagePhoto'}>
-                                <div className="profile">
-                                    <img
-                                        className="progile"
-                                        src={profile}
-                                        alt="default"
-                                    />
-                                </div>
-                            </div>{' '}
+                        </div>
+                        <div className="first-page-container-base-info-title">
+                            <h1 className="first-page-container-base-info-title-text">
+                                HI EVERYONE I’M MACIEJ AND <br />I FRONTEND
+                                DEVELOPER!!
+                            </h1>
                         </div>
                     </div>
                 </div>
