@@ -10,21 +10,20 @@ import './Navbar.scss'
 import BurgerMenu from './BurgerMenu'
 const Navbar = () => {
     const isPhone = useMediaQuery({
-        query: '(max-width: 700px)',
+        query: '(max-width: 1023px)',
     })
     const isDesktop = useMediaQuery({
-        query: '(min-width: 701px)',
+        query: '(min-width: 1024px)',
     })
     return (
         <div className="navbar-container">
             {isPhone && (
-                <div className="navbar-container-desktop">
+                <div>
                     <BurgerMenu />
                 </div>
             )}
             {isDesktop && (
                 <div className="navbar-container-desktop">
-                    {' '}
                     <div className="navbar-container-desktop-content">
                         <img
                             src={logo}
@@ -32,7 +31,7 @@ const Navbar = () => {
                             alt="default"
                         />
                         <h2 className="navbar-container-desktop-content-title">
-                            Maciej Wawryszuk
+                            MACIEJ WAWRYSZUK
                         </h2>
                     </div>
                     <ul className="navbar-container-desktop-table">

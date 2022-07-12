@@ -2,7 +2,18 @@
     text-align: center;
 }
 body {
-    background: linear-gradient(-215deg, #ffffff, #fff, #4ed0ff, #2335d5);
+    background: linear-gradient(
+        -215deg,
+        #003ea3,
+        #50d5de,
+        #fff,
+        #003ea3,
+        #50d5de,
+        #fff,
+        #003ea3,
+        #50d5de,
+        #fff
+    );
     background-size: 400% 400%;
     animation: gradient 5s ease infinite;
     height: 100%;

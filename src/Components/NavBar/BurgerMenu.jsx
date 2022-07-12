@@ -16,12 +16,10 @@ const BurgerMenu = () => {
                 <div className="burger-logo">
                     <img
                         src={logo}
-                        className="navbar-container-desktop-content-image"
+                        className="burger-logo-image"
                         alt="default"
-                    />{' '}
-                    <h2 className="navbar-container-desktop-content-title">
-                        Maciej Wawryszuk
-                    </h2>
+                    />
+                    <h2 className="burger-logo-title">MACIEJ WAWRYSZUK</h2>
                 </div>
 
                 {open ? (

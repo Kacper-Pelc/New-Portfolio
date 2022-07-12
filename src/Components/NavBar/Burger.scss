@@ -20,6 +20,18 @@
     &-logo {
         display: flex;
         align-items: center;
+        &-image {
+            width: 20%;
+            top: 13px;
+            display: flex;
+            align-items: center;
+        }
+        &-title {
+            font-size: 15px;
+            background: -webkit-linear-gradient(#115faf, #4dd1dc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
     }
     &-close {
         width: 3%;
