@@ -4,6 +4,7 @@ import two from '../../Assets/2.png'
 import three from '../../Assets/3.png'
 import four from '../../Assets/4.png'
 import { Link } from 'react-router-dom'
+import './fivepage.scss'
 const FivePage = () => {
     return (
         <div className="five-page-container">
@@ -14,18 +15,18 @@ const FivePage = () => {
             <div className="circle-shape" />
             <div className="five-page-links-one">
                 <Link to="#">
-                    <img src={one} alt="default" />
+                    <img src={one} alt="default" className="dupa" />
                 </Link>
                 <Link to="#">
-                    <img src={two} alt="default" />
+                    <img src={two} alt="default" className="dupa" />
                 </Link>
             </div>
-            <div className="five-page-links-two">
+            <div className="five-page-links-one">
                 <Link to="#">
-                    <img src={three} alt="default" />
+                    <img src={three} alt="default" className="dupa" />
                 </Link>
                 <Link to="#">
-                    <img src={four} alt="default" />
+                    <img src={four} alt="default" className="dupa" />
                 </Link>
             </div>
         </div>
