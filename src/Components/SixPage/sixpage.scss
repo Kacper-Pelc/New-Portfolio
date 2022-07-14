@@ -1,23 +1,28 @@
-.five {
+.six {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    color: #ffffff;
+    color: #206fb8;
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(134.24deg, #003ea3 20.64%, #50d5de 94.38%);
     &-container {
-        &-title {
+        &-contact {
+            &-title {
+                font-weight: 200;
+            }
+            &-img {
+                display: none;
+            }
             &-text {
                 font-weight: 200;
             }
         }
-        &-projects {
-            &-project {
+        &-social {
+            &-image {
                 width: 100%;
-                max-width: 300px;
-                padding-bottom: 20px;
+                max-width: 50px;
+                padding: 20px;
             }
         }
     }

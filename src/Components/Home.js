@@ -6,6 +6,7 @@ import SecondPage from './SecondPage/SecondPage'
 import SixPage from './SixPage/SixPage'
 import ThirdPage from './ThirdPage/ThirdPage'
 import Navbar from './NavBar/Navbar'
+import Certificates from './certyficates/Certificates'
 const Home = () => {
     return (
         <div className="home">
@@ -13,6 +14,7 @@ const Home = () => {
             <FirstPage />
             <SecondPage />
             <ThirdPage />
+            <Certificates />
             <FourPage />
             <FivePage />
             <SixPage />

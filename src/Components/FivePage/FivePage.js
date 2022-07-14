@@ -7,27 +7,43 @@ import { Link } from 'react-router-dom'
 import './fivepage.scss'
 const FivePage = () => {
     return (
-        <div className="five-page-container">
-            <div className="five-page-title">
-                <h1>PROJECTS</h1>
-            </div>
-            <div className="shape" />
-            <div className="circle-shape" />
-            <div className="five-page-links-one">
-                <Link to="#">
-                    <img src={one} alt="default" className="dupa" />
-                </Link>
-                <Link to="#">
-                    <img src={two} alt="default" className="dupa" />
-                </Link>
-            </div>
-            <div className="five-page-links-one">
-                <Link to="#">
-                    <img src={three} alt="default" className="dupa" />
-                </Link>
-                <Link to="#">
-                    <img src={four} alt="default" className="dupa" />
-                </Link>
+        <div className="five">
+            <div className="five-container">
+                <div className="five-container-title">
+                    <h1 className="five-container-title-text">PROJECTS</h1>
+                </div>
+                <div className="five-container-projects">
+                    <Link to="#">
+                        <img
+                            src={one}
+                            alt="default"
+                            className="five-container-projects-project"
+                        />
+                    </Link>
+                    <Link to="#">
+                        <img
+                            src={two}
+                            alt="default"
+                            className="five-container-projects-project"
+                        />
+                    </Link>
+                </div>
+                <div className="five-page-links-one">
+                    <Link to="#">
+                        <img
+                            src={three}
+                            alt="default"
+                            className="five-container-projects-project"
+                        />
+                    </Link>
+                    <Link to="#">
+                        <img
+                            src={four}
+                            alt="default"
+                            className="five-container-projects-project"
+                        />
+                    </Link>
+                </div>
             </div>
         </div>
     )
