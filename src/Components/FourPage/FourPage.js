@@ -25,7 +25,7 @@ import vue from '../../Assets/FrameWorkIcons/vuejs.png'
 import './fourpage.scss'
 const FourPage = () => {
     return (
-        <div className="four">
+        <div className="four" id="learn">
             <div className="four-container">
                 <div className="four-container-do">
                     <h1 className="four-container-do-title">WHAT I CAN</h1>

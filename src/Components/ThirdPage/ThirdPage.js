@@ -9,7 +9,7 @@ const ThirdPage = () => {
         query: '(min-width: 1024px)',
     })
     return (
-        <div className="third">
+        <div className="third" id="education">
             <div className="third-container">
                 <div className="third-container-title">
                     <h1 className="third-container-title-text">EDUCATION</h1>

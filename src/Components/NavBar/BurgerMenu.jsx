@@ -7,6 +7,7 @@ import man from '../../Assets/NavbarIcons/mann.png'
 import grown from '../../Assets/NavbarIcons/rocket.png'
 import code from '../../Assets/NavbarIcons/codee.png'
 import inspire from '../../Assets/NavbarIcons/inspiration.png'
+import { Link } from 'react-scroll'
 import './Burger.scss'
 const BurgerMenu = () => {
     const [open, setOpen] = useState(false)
@@ -42,36 +43,44 @@ const BurgerMenu = () => {
                 <div className="burger-items">
                     <ul className="burger-items-table">
                         <li className="burger-items-table-list">
-                            <a
-                                href="#"
+                            <Link
                                 className="burger-items-table-list-link"
+                                to="about"
+                                smooth="true"
+                                duration={1800}
                             >
                                 About Me
-                            </a>
+                            </Link>
                         </li>
                         <li className="burger-items-table-list">
-                            <a
-                                href="#"
+                            <Link
                                 className="burger-items-table-list-link"
+                                to="education"
+                                smooth="true"
+                                duration={1800}
                             >
                                 Education
-                            </a>
+                            </Link>
                         </li>
                         <li className="burger-items-table-list">
-                            <a
-                                href="#"
+                            <Link
                                 className="burger-items-table-list-link"
+                                to="learn"
+                                smooth="true"
+                                duration={1800}
                             >
                                 Can Do
-                            </a>
+                            </Link>
                         </li>
                         <li className="burger-items-table-list">
-                            <a
-                                href="#"
+                            <Link
                                 className="burger-items-table-list-link"
+                                to="projeects"
+                                smooth="true"
+                                duration={1800}
                             >
                                 Projects
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>

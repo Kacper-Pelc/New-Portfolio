@@ -8,6 +8,7 @@ import ThirdPage from './ThirdPage/ThirdPage'
 import Navbar from './NavBar/Navbar'
 import Certificates from './certyficates/Certificates'
 import { useMediaQuery } from 'react-responsive'
+import ScrollButton from './config/Scrollbutton'
 const Home = () => {
     const isPhone = useMediaQuery({
         query: '(max-width: 1023px)',
@@ -32,6 +33,7 @@ const Home = () => {
             {isDesktop && (
                 <div>
                     <Navbar />
+                    <ScrollButton />
                     <FirstPage />
                     <SecondPage />
                     <ThirdPage />

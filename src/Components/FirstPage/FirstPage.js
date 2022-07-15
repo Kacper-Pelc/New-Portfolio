@@ -3,7 +3,7 @@ import './FirstPage.scss'
 import profile from '../../Assets/1636104201691 1.png'
 const FirstPage = () => {
     return (
-        <div className="first-page">
+        <div className="first-page" id="about">
             <div className="first-page-container">
                 <div className="first-page-container-base">
                     <div className="first-page-container-base-info">

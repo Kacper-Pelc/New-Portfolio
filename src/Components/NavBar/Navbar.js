@@ -8,6 +8,7 @@ import inspire from '../../Assets/NavbarIcons/inspiration.png'
 import { useMediaQuery } from 'react-responsive'
 import './Navbar.scss'
 import BurgerMenu from './BurgerMenu'
+import { Link } from 'react-scroll'
 const Navbar = () => {
     const isPhone = useMediaQuery({
         query: '(max-width: 1023px)',
@@ -36,9 +37,11 @@ const Navbar = () => {
                     </div>
                     <ul className="navbar-container-desktop-table">
                         <li className="navbar-container-desktop-table-list-link">
-                            <a
+                            <Link
                                 className="navbar-container-desktop-table-list-link"
-                                to="#"
+                                to="about"
+                                smooth="true"
+                                duration={1800}
                             >
                                 <img
                                     src={man}
@@ -47,13 +50,15 @@ const Navbar = () => {
                                 <div className="navbar-container-desktop-table-list-link-title">
                                     About Me
                                 </div>
-                            </a>
+                            </Link>
                         </li>
 
                         <li className="navbar-container-desktop-table-list-link">
-                            <a
+                            <Link
                                 className="navbar-container-desktop-table-list-link"
-                                to="#"
+                                to="education"
+                                smooth="true"
+                                duration={1800}
                             >
                                 <img
                                     src={inspire}
@@ -62,13 +67,15 @@ const Navbar = () => {
                                 <div className="navbar-container-desktop-table-list-link-title">
                                     Education
                                 </div>
-                            </a>
+                            </Link>
                         </li>
 
                         <li className="navbar-container-desktop-table-list-link">
-                            <a
+                            <Link
                                 className="navbar-container-desktop-table-list-link"
-                                to="#"
+                                to="learn"
+                                smooth="true"
+                                duration={1800}
                             >
                                 <img
                                     src={grown}
@@ -78,13 +85,15 @@ const Navbar = () => {
                                 <div className="navbar-container-desktop-table-list-link-title">
                                     Can Do
                                 </div>
-                            </a>
+                            </Link>
                         </li>
 
                         <li className="navbar-container-desktop-table-list-link">
-                            <a
+                            <Link
                                 className="navbar-container-desktop-table-list-link"
-                                to="#"
+                                to="projeects"
+                                smooth="true"
+                                duration={1800}
                             >
                                 <img
                                     src={code}
@@ -93,7 +102,7 @@ const Navbar = () => {
                                 <div className="navbar-container-desktop-table-list-link-title">
                                     Projects
                                 </div>
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
