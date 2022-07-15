@@ -1,8 +1,6 @@
 import React from 'react'
 import './FirstPage.scss'
 import profile from '../../Assets/1636104201691 1.png'
-import shape from '../../Assets/image 5.png'
-import Navbar from '../NavBar/Navbar'
 const FirstPage = () => {
     return (
         <div className="first-page">

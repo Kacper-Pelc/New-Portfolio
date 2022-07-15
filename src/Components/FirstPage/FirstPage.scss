@@ -1,47 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&family=Poppins&family=Roboto:wght@100&display=swap');
-.first-page {
-    box-sizing: border-box;
-
-    &-container {
-        animation: gradient 5s ease infinite;
-        height: 100%;
-        width: 100%;
-        border-radius: 0 0 100% 0%/ 0 0 45% 20%;
-        transform: scaleX(1);
-        background: linear-gradient(134.24deg, #003ea3 50.64%, #50d5de 94.38%);
-        &-base {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            font-family: 'Poppins', sans-serif;
-            padding: 70px 20px 70px;
-            &-info {
-                &-title {
-                    text-align: center;
-                    align-items: center;
-                    flex-direction: column;
-                    display: flex;
-
-                    &-text {
-                        font-weight: 400;
-                        line-height: 1.2;
-                        font-size: 20px;
-                        width: 70%;
-                        margin-bottom: 20px;
+@media screen and (max-width: 1023px) {
+    .first-page {
+        &-container {
+            animation: gradient 5s ease infinite;
+            height: 100%;
+            width: 100%;
+            border-radius: 0 0 100% 0%/ 0 0 45% 20%;
+            background: linear-gradient(
+                134.24deg,
+                #003ea3 50.64%,
+                #50d5de 94.38%
+            );
+            &-base {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                font-family: 'Poppins', sans-serif;
+                padding: 70px 20px 70px;
+                &-info {
+                    &-title {
                         text-align: center;
-                        color: #fff;
+                        align-items: center;
+                        flex-direction: column;
+                        display: flex;
+
+                        &-text {
+                            font-weight: 400;
+                            line-height: 1.2;
+                            font-size: 20px;
+                            width: 70%;
+                            margin-bottom: 20px;
+                            text-align: center;
+                            color: #fff;
+                        }
+                    }
+                    &-img {
+                        &-profile {
+                            display: flex;
+                            justify-content: center;
+                            align-content: stretch;
+                            &-image {
+                                border-image: url('../../Assets/phone-firstpage/border.png');
+                                border: 10px solid transparent;
+                                width: 60%;
+                            }
+                        }
                     }
                 }
-                &-img {
-                    &-profile {
+            }
+        }
+    }
+}
+@media screen and (min-width: 1024px) {
+    .first-page {
+        &-container {
+            height: 100%;
+            width: 100%;
+            background-size: 150px;
+            background: linear-gradient(
+                134.24deg,
+                #003ea3 50.64%,
+                #50d5de 94.38%
+            );
+            &-base {
+                font-family: 'Poppins', sans-serif;
+                padding: 70px 20px 70px;
+                &-info {
+                    display: flex;
+                    flex-direction: row-reverse;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    &-title {
+                        text-align: center;
+                        align-items: flex-start;
+                        flex-direction: column;
                         display: flex;
-                        justify-content: center;
-                        align-content: stretch;
-                        &-image {
-                            border-image: url('../../Assets/phone-firstpage/border.png');
-                            border: 10px solid transparent;
-                            width: 60%;
+                        &-text {
+                            font-weight: 400;
+                            line-height: 1.5;
+                            font-size: 40px;
+                            width: 100%;
+                            text-align: center;
+                            color: #fff;
+                        }
+                    }
+                    &-img {
+                        &-profile {
+                            display: flex;
+                            justify-content: center;
+                            align-content: flex-end;
+                            padding: 100px;
+                            &-image {
+                                border-image: url('../../Assets/phone-firstpage/border.png');
+                                border: 10px solid transparent;
+                                width: 80%;
+                            }
                         }
                     }
                 }

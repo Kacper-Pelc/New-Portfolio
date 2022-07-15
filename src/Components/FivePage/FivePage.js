@@ -28,7 +28,7 @@ const FivePage = () => {
                         />
                     </Link>
                 </div>
-                <div className="five-page-links-one">
+                <div className="five-container-projects">
                     <Link to="#">
                         <img
                             src={three}

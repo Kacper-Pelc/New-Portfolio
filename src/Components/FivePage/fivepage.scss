@@ -1,23 +1,58 @@
-.five {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    color: #ffffff;
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(134.24deg, #003ea3 20.64%, #50d5de 94.38%);
-    &-container {
-        &-title {
-            &-text {
-                font-weight: 200;
+@media screen and (max-width: 1023px) {
+    .five {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(134.24deg, #003ea3 20.64%, #50d5de 94.38%);
+        &-container {
+            &-title {
+                &-text {
+                    font-weight: 200;
+                    font-size: 25px;
+                }
+            }
+            &-projects {
+                &-project {
+                    width: 100%;
+                    max-width: 300px;
+                    padding-bottom: 20px;
+                }
             }
         }
-        &-projects {
-            &-project {
-                width: 100%;
-                max-width: 300px;
-                padding-bottom: 20px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .five {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(134.24deg, #003ea3 20.64%, #50d5de 94.38%);
+        &-container {
+            &-title {
+                &-text {
+                    font-weight: 200;
+                    font-size: 35px;
+                }
+            }
+            &-projects {
+                display: flex;
+                &-project {
+                    width: 100%;
+                    margin: 40px;
+                    max-width: 500px;
+                }
+                &-project:hover {
+                    backdrop-filter: blur(10px);
+                    filter: blur(4px);
+                    transition: 0.5s ease;
+                }
             }
         }
     }

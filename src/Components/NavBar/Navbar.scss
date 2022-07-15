@@ -46,7 +46,6 @@ $background: #edf5e1;
                     filter: grayscale(100%);
                 }
                 &-link {
-                    float: left;
                     width: 100px;
                     text-align: center;
                     font-size: 15px;
@@ -54,7 +53,7 @@ $background: #edf5e1;
                     text-decoration: none;
                     cursor: pointer;
                     &:hover {
-                        z-index: 0;
+                        z-index: 1;
                         text-align: center;
                         height: 20px;
                         border-radius: 200px;
@@ -79,9 +78,6 @@ $background: #edf5e1;
                     }
                     &-title {
                         font-size: 0px;
-                        &:hover {
-                            transform: translateY(-10px);
-                        }
                     }
                 }
             }

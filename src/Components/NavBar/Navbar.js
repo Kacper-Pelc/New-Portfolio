@@ -35,7 +35,7 @@ const Navbar = () => {
                         </h2>
                     </div>
                     <ul className="navbar-container-desktop-table">
-                        <li className="navbar-container-desktop-table-list">
+                        <li className="navbar-container-desktop-table-list-link">
                             <a
                                 className="navbar-container-desktop-table-list-link"
                                 to="#"

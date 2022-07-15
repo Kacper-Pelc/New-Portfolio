@@ -1,31 +1,71 @@
-.four {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    color: #ffffff;
-    font-family: 'Poppins', sans-serif;
-    &-container {
-        &-do {
-            &-title {
-                color: #206fb8;
-                font-weight: 200;
+@media screen and (max-width: 1023px) {
+    .four {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Poppins', sans-serif;
+        &-container {
+            &-do {
+                &-title {
+                    color: #206fb8;
+                    font-weight: 200;
+                    font-size: 25px;
+                }
+                &-icon {
+                    width: 100%;
+                    max-width: 140px;
+                }
             }
-            &-icon {
-                width: 100%;
-                max-width: 200px;
+            &-learn {
+                &-title {
+                    color: #206fb8;
+                    font-weight: 200;
+                    font-size: 25px;
+                }
+                &-icon {
+                    width: 100%;
+                    max-width: 100px;
+                    margin: 20px;
+                }
             }
         }
-        &-learn {
-            &-title {
-                color: #206fb8;
-                font-weight: 200;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .four {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Poppins', sans-serif;
+        &-container {
+            &-do {
+                &-title {
+                    color: #206fb8;
+                    font-weight: 200;
+                    font-size: 35px;
+                }
+                &-icon {
+                    width: 100%;
+                    max-width: 200px;
+                }
             }
-            &-icon {
-                width: 100%;
-                max-width: 130px;
-                margin: 35px;
+            &-learn {
+                &-title {
+                    color: #206fb8;
+                    font-weight: 200;
+                    font-size: 35px;
+                }
+                &-icon {
+                    width: 100%;
+                    max-width: 140px;
+                    margin: 20px;
+                }
             }
         }
     }

@@ -29,27 +29,51 @@ const SixPage = () => {
                 </div>
                 {isDesktop && (
                     <div className="six-container-social">
-                        <div className="youtube">
-                            <img src={yt} alt="default" />
-                            <h2>/BL4CK</h2>
+                        <div className="six-container-social-content">
+                            <img
+                                src={yt}
+                                alt="default"
+                                className="six-container-social-content-image"
+                            />
+                            <h2 className="six-container-social-content-title">
+                                /BL4CK
+                            </h2>
                         </div>
-                        <div className="facebook">
-                            <img src={facebook} alt="default" />
-                            <h2>/Maciej Wawryszuk</h2>
+                        <div className="six-container-social-content">
+                            <img
+                                src={facebook}
+                                alt="default"
+                                className="six-container-social-content-image"
+                            />
+                            <h2 className="six-container-social-content-title">
+                                /Maciej Wawryszuk
+                            </h2>
                         </div>
-                        <div className="twitter">
-                            <img src={twitter} alt="default" />
-                            <h2>/MaciejWaWr</h2>
+                        <div className="six-container-social-content">
+                            <img
+                                src={twitter}
+                                alt="default"
+                                className="six-container-social-content-image"
+                            />
+                            <h2 className="six-container-social-content-title">
+                                /MaciejWaWr
+                            </h2>
                         </div>
-                        <div className="linkedin">
-                            <img src={linkedin} alt="default" />
-                            <h2>/Maciej Wawryszuk</h2>
+                        <div className="six-container-social-content">
+                            <img
+                                src={linkedin}
+                                alt="default"
+                                className="six-container-social-content-image"
+                            />
+                            <h2 className="six-container-social-content-title">
+                                /Maciej Wawryszuk
+                            </h2>
                         </div>
                     </div>
                 )}
                 {isPhone && (
                     <div className="six-container-social">
-                        <h1 className="six-container-contact-title">
+                        <h1 className="six-container-social-title">
                             MY SOCIALMEDIA
                         </h1>
                         <img

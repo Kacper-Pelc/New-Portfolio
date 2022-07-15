@@ -1,28 +1,82 @@
-.six {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    color: #206fb8;
-    font-family: 'Poppins', sans-serif;
-    &-container {
-        &-contact {
-            &-title {
-                font-weight: 200;
+@media screen and (max-width: 1023px) {
+    .six {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: #206fb8;
+        font-family: 'Poppins', sans-serif;
+        &-container {
+            &-contact {
+                &-title {
+                    font-weight: 200;
+                    font-size: 20px;
+                }
+                &-img {
+                    display: none;
+                }
+                &-text {
+                    font-weight: 200;
+                    font-size: 20px;
+                }
             }
-            &-img {
-                display: none;
-            }
-            &-text {
-                font-weight: 200;
+            &-social {
+                &-title {
+                    font-size: 20px;
+                    font-weight: 200;
+                }
+                &-image {
+                    width: 100%;
+                    max-width: 50px;
+                    padding: 20px;
+                }
             }
         }
-        &-social {
-            &-image {
-                width: 100%;
-                max-width: 50px;
-                padding: 20px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .six {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        color: #206fb8;
+        font-family: 'Poppins', sans-serif;
+        &-container {
+            &-contact {
+                &-title {
+                    font-weight: 200;
+                    font-size: 30px;
+                }
+                &-img {
+                    display: none;
+                }
+                &-text {
+                    font-weight: 200;
+                    font-size: 20px;
+                }
+            }
+            &-social {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-content: stretch;
+                justify-content: space-evenly;
+                align-items: baseline;
+                &-content {
+                    display: flex;
+                    align-items: center;
+                    &-title {
+                        font-weight: 200;
+                        font-size: 20px;
+                    }
+                    &-image {
+                        padding: 20px;
+                        width: 100%;
+                        max-width: 50px;
+                    }
+                }
             }
         }
     }

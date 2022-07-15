@@ -1,32 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&family=Poppins&family=Roboto:wght@100&display=swap');
-.certificates {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    color: #1363b1;
-    font-family: 'Poppins', sans-serif;
-    &-container {
-        &-title {
-            &-text {
-                font-size: 30px;
-                font-weight: 200;
+
+@media screen and (max-width: 1023px) {
+    .certificates {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: #1363b1;
+        font-family: 'Poppins', sans-serif;
+        &-container {
+            &-title {
+                &-text {
+                    font-size: 25px;
+                    font-weight: 200;
+                }
+            }
+            &-info {
+                &-table {
+                    text-align: left;
+
+                    &-list {
+                        list-style: none;
+                        width: 100%;
+                        font-size: 20px;
+                    }
+                    &-list::before {
+                        content: '.';
+                        font-size: 120px;
+                        line-height: 0.1;
+                    }
+                }
             }
         }
-        &-info {
-            &-table {
-                text-align: left;
-
-                &-list {
-                    list-style: none;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .certificates {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: flex;
+        width: 100%;
+        height: 100%;
+        color: #1363b1;
+        font-family: 'Poppins', sans-serif;
+        &-container {
+            &-title {
+                align-items: flex-start;
+                &-text {
+                    font-size: 35px;
+                    font-weight: 200;
                     width: 100%;
-                    font-size: 20px;
                 }
-                &-list::before {
-                    content: '.';
-                    font-size: 120px;
-                    line-height: 0.1;
+            }
+            &-info {
+                align-items: center;
+                &-table {
+                    text-align: center;
+
+                    &-list {
+                        list-style: none;
+                        line-height: 1.5;
+                        width: 100%;
+                        font-size: 25px;
+                    }
                 }
             }
         }
