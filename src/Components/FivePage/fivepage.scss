@@ -48,12 +48,16 @@
                     margin: 40px;
                     max-width: 500px;
                 }
-                &-project:hover {
-                    backdrop-filter: blur(10px);
-                    filter: blur(4px);
-                    transition: 0.5s ease;
-                }
             }
         }
+    }
+}
+.on-hover {
+    display: flex;
+    justify-content: center;
+    &-image {
+        width: 30%;
+    }
+    &-text {
     }
 }

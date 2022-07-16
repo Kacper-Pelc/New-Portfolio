@@ -76,29 +76,36 @@ const SixPage = () => {
                         <h1 className="six-container-social-title">
                             MY SOCIALMEDIA
                         </h1>
-                        <img
-                            src={yt}
-                            alt="default"
-                            className="six-container-social-image"
-                        />
+                        <a href="https://www.youtube.com/channel/UC0AGrJ20IN8ldR1FoVMphfA">
+                            <img
+                                src={yt}
+                                alt="default"
+                                className="six-container-social-image"
+                            />
+                        </a>
 
-                        <img
-                            src={facebook}
-                            alt="default"
-                            className="six-container-social-image"
-                        />
+                        <a href="https://www.facebook.com/profile.php?id=100010047699896">
+                            <img
+                                src={facebook}
+                                alt="default"
+                                className="six-container-social-image"
+                            />
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100010047699896">
+                            <img
+                                src={twitter}
+                                alt="default"
+                                className="six-container-social-image"
+                            />
+                        </a>
 
-                        <img
-                            src={twitter}
-                            alt="default"
-                            className="six-container-social-image"
-                        />
-
-                        <img
-                            src={linkedin}
-                            alt="default"
-                            className="six-container-social-image"
-                        />
+                        <a href="https://www.linkedin.com/in/maciek-wawryszuk-484737225/">
+                            <img
+                                src={linkedin}
+                                alt="default"
+                                className="six-container-social-image"
+                            />
+                        </a>
                     </div>
                 )}
             </div>
