@@ -1,6 +1,6 @@
 import React from 'react'
 import './FirstPage.scss'
-import profile from '../../Assets/1636104201691 1.png'
+import profile from '../../Assets/profile.jpg'
 const FirstPage = () => {
     return (
         <div className="first-page" id="about">

@@ -109,6 +109,16 @@ const FourPage = () => {
                         alt="default"
                         className="four-container-do-icon"
                     />
+                    <img
+                        src={tailwind}
+                        alt="default"
+                        className="four-container-do-iconn"
+                    />
+                    <img
+                        src={bootstrap}
+                        alt="default"
+                        className="four-container-do-iconn"
+                    />
                 </div>
                 <div className="four-container-learn">
                     <h1 className="four-container-learn-title">
@@ -121,16 +131,6 @@ const FourPage = () => {
                     />
                     <img
                         src={next}
-                        alt="default"
-                        className="four-container-learn-icon"
-                    />
-                    <img
-                        src={tailwind}
-                        alt="default"
-                        className="four-container-learn-icon"
-                    />
-                    <img
-                        src={bootstrap}
                         alt="default"
                         className="four-container-learn-icon"
                     />
