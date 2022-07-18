@@ -16,20 +16,20 @@ const ThirdPage = () => {
                 </div>
                 <div className="third-container-info">
                     <h2 className="third-container-info-work">
-                        I work in 9bits company on Junior
-                        Javascript(React)Developer.
+                        I was working at 9 bits company as Junior JavaScript
+                        (React)Developer.
                     </h2>
                     <h2 className="third-container-info-univer">
-                        I Study in Catholic University of Lublin in the field of
-                        computer science.I studied at an IT technical college in
-                        Małaszewicze
+                        I Study at the Catholic University of Lublin in the
+                        field of computer science. I studied before at an IT
+                        technical college in Małaszewicze
                     </h2>
                 </div>
                 {isDesktop && (
                     <div className="certificates-container">
                         <div className="certificates-container-title">
                             <h1 className="certificates-container-title-text">
-                                Certyficates and Diploma’s
+                                Certificates and Diploma’s
                             </h1>
                         </div>
                         <div className="certificates-container-info">

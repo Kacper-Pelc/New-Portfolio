@@ -122,7 +122,7 @@ const FourPage = () => {
                 </div>
                 <div className="four-container-learn">
                     <h1 className="four-container-learn-title">
-                        WHAT I LEARNING
+                        WHAT I'M LEARNING
                     </h1>
                     <img
                         src={typescript}

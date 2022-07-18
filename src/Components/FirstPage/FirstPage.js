@@ -18,8 +18,8 @@ const FirstPage = () => {
                         </div>
                         <div className="first-page-container-base-info-title">
                             <h1 className="first-page-container-base-info-title-text">
-                                HI EVERYONE I’M MACIEJ AND <br />I FRONTEND
-                                DEVELOPER!!
+                                HI EVERYONE, I’M MACIEJ
+                                <br /> AND I'M A FRONTEND DEVELOPER!!
                             </h1>
                         </div>
                     </div>

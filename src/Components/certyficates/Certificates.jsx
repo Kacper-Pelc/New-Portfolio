@@ -6,7 +6,7 @@ const Certificates = () => {
             <div className="certificates-container">
                 <div className="certificates-container-title">
                     <h1 className="certificates-container-title-text">
-                        Certyficates and Diploma’s
+                        Certificates and Diploma’s
                     </h1>
                 </div>
                 <div className="certificates-container-info">
