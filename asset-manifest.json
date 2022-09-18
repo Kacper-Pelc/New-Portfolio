@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/New-Portfolio/static/css/main.80fe7eab.css",
-    "main.js": "/New-Portfolio/static/js/main.53010988.js",
-    "static/media/4.png": "/New-Portfolio/static/media/4.9c9c39047dbdfd0f6276.png",
+    "main.css": "/New-Portfolio/static/css/main.6ff11c5c.css",
+    "main.js": "/New-Portfolio/static/js/main.22ab67a6.js",
+    "static/media/4.png": "/New-Portfolio/static/media/4.c9918d3692614f5a3fa4.png",
     "static/media/7.png": "/New-Portfolio/static/media/7.0c6d101b3a5fa06b44c5.png",
-    "static/media/8.png": "/New-Portfolio/static/media/8.7f3ad81fec590ad131b2.png",
-    "static/media/5.png": "/New-Portfolio/static/media/5.31181da12c770b005796.png",
-    "static/media/6.png": "/New-Portfolio/static/media/6.e22b33840d68c46c155d.png",
-    "static/media/3.png": "/New-Portfolio/static/media/3.e64c2107e20e04bb2cf5.png",
+    "static/media/8.png": "/New-Portfolio/static/media/8.5dd027ef814677e14789.png",
+    "static/media/3.png": "/New-Portfolio/static/media/3.c11e100cf65e74b2703f.png",
+    "static/media/hrme.png": "/New-Portfolio/static/media/hrme.20f0b5f29f73043bba1e.png",
+    "static/media/hrmehover.png": "/New-Portfolio/static/media/hrmehover.9dc3982a5b6d6c831bf9.png",
     "static/media/profile.jpg": "/New-Portfolio/static/media/profile.4e4305fa65f2ca53b99d.jpg",
     "static/media/1.png": "/New-Portfolio/static/media/1.bb5cf826ec063bf0ff1b.png",
     "static/media/2.png": "/New-Portfolio/static/media/2.8c2c0b83432a585e8659.png",
@@ -21,24 +21,29 @@
     "static/media/prettier.png": "/New-Portfolio/static/media/prettier.611045044581e012ed28.png",
     "static/media/vitejs.png": "/New-Portfolio/static/media/vitejs.90d07225093b6e19900f.png",
     "static/media/sass.png": "/New-Portfolio/static/media/sass.5bf0e2bf198f02001336.png",
+    "static/media/java.png": "/New-Portfolio/static/media/java.135fd92d6a89bdb6df2d.png",
     "static/media/gitlab.png": "/New-Portfolio/static/media/gitlab.21ab465843b033720f23.png",
+    "static/media/angular.png": "/New-Portfolio/static/media/angular.9a5d1cc9526b95e4b101.png",
     "static/media/css.png": "/New-Portfolio/static/media/css.b5fe5d57b0da7d3b86bd.png",
     "static/media/gitlab-1.png": "/New-Portfolio/static/media/gitlab-1.0fd7f251990e8b23d13f.png",
     "static/media/vs.png": "/New-Portfolio/static/media/vs.3e9e74b21ff6a09f6587.png",
     "static/media/html5.png": "/New-Portfolio/static/media/html5.89e96d0109fbe105aa77.png",
+    "static/media/bootstrap5.png": "/New-Portfolio/static/media/bootstrap5.7427b235f8c0401f955e.png",
     "static/media/firebase.png": "/New-Portfolio/static/media/firebase.8b22c66bb4912a6c2b11.png",
+    "static/media/tailwind.png": "/New-Portfolio/static/media/tailwind.2300a5b89acf7008a86a.png",
     "static/media/figma.png": "/New-Portfolio/static/media/figma.cec052a62fe57884238c.png",
     "static/media/git.png": "/New-Portfolio/static/media/git.c93301776bb377353a0e.png",
     "static/media/js.png": "/New-Portfolio/static/media/js.51b7089d59ffda982c8d.png",
+    "static/media/typescript.png": "/New-Portfolio/static/media/typescript.ac03c15299fc99927ca1.png",
     "static/media/npm.png": "/New-Portfolio/static/media/npm.3cb737d883b59cc14778.png",
     "static/media/open.svg": "/New-Portfolio/static/media/open.ab32753e90f9b8360fb2f31e3c2198f9.svg",
     "index.html": "/New-Portfolio/index.html",
     "static/media/close.svg": "/New-Portfolio/static/media/close.48a6e733a86eeb1668f124b25714d265.svg",
-    "main.80fe7eab.css.map": "/New-Portfolio/static/css/main.80fe7eab.css.map",
-    "main.53010988.js.map": "/New-Portfolio/static/js/main.53010988.js.map"
+    "main.6ff11c5c.css.map": "/New-Portfolio/static/css/main.6ff11c5c.css.map",
+    "main.22ab67a6.js.map": "/New-Portfolio/static/js/main.22ab67a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.80fe7eab.css",
-    "static/js/main.53010988.js"
+    "static/css/main.6ff11c5c.css",
+    "static/js/main.22ab67a6.js"
   ]
 }
