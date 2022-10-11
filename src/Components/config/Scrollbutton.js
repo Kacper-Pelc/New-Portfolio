@@ -26,9 +26,10 @@ const ScrollButton = () => {
     return (
         <Button>
             <img
+                alt="xd"
                 src={arrow}
                 onClick={scrollToTop}
-                style={{ display: visible ? 'inline' : 'none' }}
+                style={{ zIndex: '3', display: visible ? 'inline' : 'none' }}
             />
         </Button>
     )

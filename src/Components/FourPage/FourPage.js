@@ -22,20 +22,38 @@ import typescript from '../../Assets/FrameWorkIcons/typescript.png'
 import vitejs from '../../Assets/FrameWorkIcons/vitejs.png'
 import vs from '../../Assets/FrameWorkIcons/vs.png'
 import vue from '../../Assets/FrameWorkIcons/vuejs.png'
+import angular from '../../Assets/FrameWorkIcons/angular.png'
 import './fourpage.scss'
 const FourPage = () => {
     return (
-        <div className="four" id="learn">
+        <div className="four" id="learn" style={{ zIndex: '2' }}>
             <div className="four-container">
-                <div className="four-container-do">
+                <div className="four-container-do" style={{ zIndex: '2' }}>
                     <h1 className="four-container-do-title">WHAT I CAN</h1>
+                    <img
+                        style={{ zIndex: '2' }}
+                        src={react}
+                        alt="default"
+                        className="four-container-do-icon"
+                    />
+                    <img
+                        src={angular}
+                        alt="default"
+                        className="four-container-do-icon"
+                    />
                     <img
                         src={js}
                         alt="default"
                         className="four-container-do-icon"
                     />
                     <img
-                        src={sass}
+                        style={{ zIndex: '2' }}
+                        src={typescript}
+                        alt="default"
+                        className="four-container-do-icon"
+                    />
+                    <img
+                        src={java}
                         alt="default"
                         className="four-container-do-icon"
                     />
@@ -50,12 +68,23 @@ const FourPage = () => {
                         className="four-container-do-icon"
                     />
                     <img
-                        src={npm}
+                        src={sass}
+                        alt="default"
+                        className="four-container-do-icon"
+                    />
+
+                    <img
+                        src={tailwind}
                         alt="default"
                         className="four-container-do-icon"
                     />
                     <img
-                        src={react}
+                        src={bootstrap}
+                        alt="default"
+                        className="four-container-do-icon"
+                    />
+                    <img
+                        src={npm}
                         alt="default"
                         className="four-container-do-icon"
                     />
@@ -108,46 +137,6 @@ const FourPage = () => {
                         src={base}
                         alt="default"
                         className="four-container-do-icon"
-                    />
-                    <img
-                        src={tailwind}
-                        alt="default"
-                        className="four-container-do-iconn"
-                    />
-                    <img
-                        src={bootstrap}
-                        alt="default"
-                        className="four-container-do-iconn"
-                    />
-                </div>
-                <div className="four-container-learn">
-                    <h1 className="four-container-learn-title">
-                        WHAT I'M LEARNING
-                    </h1>
-                    <img
-                        src={typescript}
-                        alt="default"
-                        className="four-container-learn-icon"
-                    />
-                    <img
-                        src={next}
-                        alt="default"
-                        className="four-container-learn-icon"
-                    />
-                    <img
-                        src={java}
-                        alt="default"
-                        className="four-container-learn-icon"
-                    />
-                    <img
-                        src={vue}
-                        alt="default"
-                        className="four-container-learn-icon"
-                    />
-                    <img
-                        src={nest}
-                        alt="default"
-                        className="four-container-learn-icon"
                     />
                 </div>
             </div>

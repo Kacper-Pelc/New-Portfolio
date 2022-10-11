@@ -2,6 +2,7 @@ import React from 'react'
 import yt from '../../Assets/Youtube.png'
 import facebook from '../../Assets/Facebook.png'
 import twitter from '../../Assets/Twitter.png'
+import github from '../../Assets/Github.png'
 import linkedin from '../../Assets/LinkedIN.png'
 import gmail from '../../Assets/Gmail.png'
 import { useMediaQuery } from 'react-responsive'
@@ -15,7 +16,7 @@ const SixPage = () => {
     })
     return (
         <div className="six">
-            <div className="six-container">
+            <div className="six-container" style={{ zIndex: '2' }}>
                 <div className="six-container-contact">
                     <h1 className="six-container-contact-title">CONTACT ME!</h1>
                     <img
@@ -51,12 +52,12 @@ const SixPage = () => {
                         </div>
                         <div className="six-container-social-content">
                             <img
-                                src={twitter}
+                                src={github}
                                 alt="default"
                                 className="six-container-social-content-image"
                             />
                             <h2 className="six-container-social-content-title">
-                                /MaciejWaWr
+                                /Maciejj1
                             </h2>
                         </div>
                         <div className="six-container-social-content">
@@ -91,9 +92,9 @@ const SixPage = () => {
                                 className="six-container-social-image"
                             />
                         </a>
-                        <a href="https://www.facebook.com/profile.php?id=100010047699896">
+                        <a href="https://github.com/Maciejj1">
                             <img
-                                src={twitter}
+                                src={github}
                                 alt="default"
                                 className="six-container-social-image"
                             />

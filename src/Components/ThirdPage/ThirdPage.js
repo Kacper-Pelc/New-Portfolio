@@ -15,14 +15,18 @@ const ThirdPage = () => {
                     <h1 className="third-container-title-text">EDUCATION</h1>
                 </div>
                 <div className="third-container-info">
-                    <h2 className="third-container-info-work">
-                        I was working at 9 bits company as Junior JavaScript
-                        (React)Developer.
+                    <h2 className="third-container-info-univer">
+                        I graduated from the IT Technical School in Małaszewicze
+                        with certificates, thanks to which I got to know
+                        Javascript and Web Programming
                     </h2>
                     <h2 className="third-container-info-univer">
-                        I Study at the Catholic University of Lublin in the
-                        field of computer science. I studied before at an IT
-                        technical college in Małaszewicze
+                        I am studying in the second year at the Catholic
+                        University of Lublin in the field of computer science.
+                    </h2>
+                    <h2 className="third-container-info-work">
+                        Episode in 9 bits company as Junior JavaScript
+                        (React)Developer for 5 months.
                     </h2>
                 </div>
                 {isDesktop && (
