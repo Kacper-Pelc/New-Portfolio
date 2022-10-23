@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/New-Portfolio/static/css/main.bcd64a35.css",
-    "main.js": "/New-Portfolio/static/js/main.16ae1b30.js",
+    "main.js": "/New-Portfolio/static/js/main.40206351.js",
     "static/media/4.png": "/New-Portfolio/static/media/4.c9918d3692614f5a3fa4.png",
     "static/media/7.png": "/New-Portfolio/static/media/7.0c6d101b3a5fa06b44c5.png",
     "static/media/8.png": "/New-Portfolio/static/media/8.5dd027ef814677e14789.png",
     "static/media/3.png": "/New-Portfolio/static/media/3.c11e100cf65e74b2703f.png",
     "static/media/brightmoonhover.png": "/New-Portfolio/static/media/brightmoonhover.35bb11f5926c3cdf719f.png",
+    "static/media/dogiehover.png": "/New-Portfolio/static/media/dogiehover.303a09dcc1cc4312a6fc.png",
     "static/media/profile.jpg": "/New-Portfolio/static/media/profile.4e4305fa65f2ca53b99d.jpg",
+    "static/media/dogie.png": "/New-Portfolio/static/media/dogie.98659b487ce148d22640.png",
     "static/media/1.png": "/New-Portfolio/static/media/1.bb5cf826ec063bf0ff1b.png",
     "static/media/2.png": "/New-Portfolio/static/media/2.8c2c0b83432a585e8659.png",
     "static/media/brightmoon.png": "/New-Portfolio/static/media/brightmoon.13cf8a59bb0046588a67.png",
@@ -16,6 +18,7 @@
     "static/media/codee.png": "/New-Portfolio/static/media/codee.36978a42d17764a84fa6.png",
     "static/media/Group95.png": "/New-Portfolio/static/media/Group95.09a79bd10f43146e6975.png",
     "static/media/base-1.png": "/New-Portfolio/static/media/base-1.a41a3815c9a6a2e593ee.png",
+    "static/media/apiicon.png": "/New-Portfolio/static/media/apiicon.ec4e488572fd0a74eb8d.png",
     "static/media/mann.png": "/New-Portfolio/static/media/mann.5f60ce970a70629fd77b.png",
     "static/media/reactjs.png": "/New-Portfolio/static/media/reactjs.356e7776133f8567a1c9.png",
     "static/media/prettier.png": "/New-Portfolio/static/media/prettier.611045044581e012ed28.png",
@@ -40,10 +43,10 @@
     "index.html": "/New-Portfolio/index.html",
     "static/media/close.svg": "/New-Portfolio/static/media/close.48a6e733a86eeb1668f124b25714d265.svg",
     "main.bcd64a35.css.map": "/New-Portfolio/static/css/main.bcd64a35.css.map",
-    "main.16ae1b30.js.map": "/New-Portfolio/static/js/main.16ae1b30.js.map"
+    "main.40206351.js.map": "/New-Portfolio/static/js/main.40206351.js.map"
   },
   "entrypoints": [
     "static/css/main.bcd64a35.css",
-    "static/js/main.16ae1b30.js"
+    "static/js/main.40206351.js"
   ]
 }
